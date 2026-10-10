@@ -99,3 +99,4 @@ button{font:inherit;cursor:pointer}
 
 .menuFoot .dl{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
 .menuFoot .dl a{color:#ffd56a;font-size:13px;background:#2a0a3a;border:1px solid #ff1040;border-radius:14px;padding:4px 12px;text-decoration:none}
+.panel .qinfo{font-size:.8em;opacity:.8;margin:2px 0 6px}
