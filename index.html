@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#12020c">
+<title>Atrapa un millón 3D</title>
+<link rel="icon" href="assets/img/icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app"></div>
+<div id="loading"><div class="ld">€</div><div>Cargando plató…</div></div>
+
+<div id="langsel" class="screen hidden">
+  <img class="logo" src="assets/img/logo_menu.png" alt="Atrapa un millón">
+  <div class="t">Elige idioma · Escolha o idioma</div>
+  <div class="lb"><button data-l="es">ESPAÑOL<small>Español (España)</small></button><button data-l="pt">PORTUGUÊS<small>Português</small></button></div>
+</div>
+
+<div id="menu" class="screen hidden">
+  <img class="logo" src="assets/img/logo_menu.png" alt="Atrapa un millón">
+  <div class="btns">
+    <button data-mode="mini" data-i="m_mini"></button>
+    <button data-mode="entreno" data-i="m_train"></button>
+    <button data-mode="tv" data-i="m_tv" class="gold"></button>
+    <button data-mode="historia" data-i="m_hist"></button>
+    <button data-mode="walk" data-i="m_walk"></button>
+    <button id="btnCustom" class="custom" data-i="m_custom"></button>
+  </div>
+  <div class="specials"><span data-i="m_specials"></span><div class="spBtns">
+    <button data-mode="espTele" data-i="sp_tele"></button>
+    <button data-mode="espDiario" data-i="sp_diario"></button>
+    <button data-mode="espAniv" data-i="sp_aniv"></button>
+    <button data-mode="espDos" data-i="sp_dos"></button>
+  </div></div>
+  <div class="menuFoot">
+    <button id="btnLang" class="lang">🌐 ES / PT</button>
+    <div class="dl" id="dlLinks"><a href="https://github.com/ikeriano/atrapa-un-millon-3d/releases/latest/download/AtrapaUnMillon3D.apk" data-i="dl3d">Descargar APK (3D)</a><a href="https://github.com/ikeriano/atrapa-un-millon-3d/releases/latest/download/AtrapaUnMillon-original.apk" data-i="dlOrig">Descargar APK (minijuego original)</a></div>
+    <div class="disc" data-i="disc"></div>
+  </div>
+</div>
+
+<div id="hud" class="hidden">
+  <div id="hq"></div>
+  <div id="timer">60</div>
+  <div id="hmoney"><div><span data-i="h_play"></span> <b id="hTotal">0</b></div><div id="hBankRow"><span data-i="h_bank"></span> <b id="hBank">0</b></div></div>
+</div>
+<div id="split" class="hidden"><div id="cols"></div><div id="acts"><button id="btnStop" data-i="stop"></button><button id="btnStar" class="hidden" data-i="star"></button></div></div>
+<div id="sub" class="hidden"></div>
+<div id="overlay" class="hidden"></div>
+<div id="topBtns" class="hidden">
+  <button id="tbHome" title="Menú">⌂</button><button id="tbCam" title="Cámara">🎥</button><button id="tbWalk" title="Pasear">🚶</button><button id="tbLights" title="Luces">💡</button><button id="tbMute" title="Sonido">🔊</button>
+</div>
+<div id="skip" class="hidden">⏭</div>
+<div id="glights" class="hidden"></div>
+<div id="joy" class="hidden"><div id="knob"></div></div>
+<div id="wm" data-i="wm"></div>
+<script src="game.js"></script>
+</body>
+</html>
