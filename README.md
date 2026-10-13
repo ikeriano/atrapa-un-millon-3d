@@ -16,7 +16,7 @@ Versión 3D no oficial, hecha por un fan, del concurso **Atrapa un millón**: pl
   - Atrapa dos millones
 - **Historia del programa**: fichas sobre el concurso.
 - **Pasear por el plató**: camina libremente con joystick o con WASD y las flechas.
-- **Personalizar**: volumen, calidad gráfica, idioma y panel de luces.
+- **Personalizar**: volumen, calidad gráfica, idioma, panel de luces y **Personajes: Monigotes / Personas 3D** (personas 3D realistas con caras inventadas, avatares Microsoft Rocketbox con licencia MIT).
 
 Idiomas: español y portugués (el portugués va con subtítulos y sin voz).
 
