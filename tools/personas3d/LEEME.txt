@@ -1,2 +1,4 @@
-# Fuente de personas3d_atrapa.js
-# cd tools/personas3d && npm i three@0.186.0 esbuild && npx esbuild main.js --bundle --minify --format=iife --outfile=../../personas3d_atrapa.js
+# Fuente de personas3d_atrapa.js (cargador, sin three) y personas3d_motor.js (solo con «Personas 3D»)
+# cd tools/personas3d && npm i three@0.186.0 esbuild
+# npx esbuild loader.js --bundle --minify --format=iife --outfile=../../personas3d_atrapa.js
+# npx esbuild motor.js --bundle --minify --format=iife --outfile=../../personas3d_motor.js
