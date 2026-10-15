@@ -3,7 +3,7 @@
 // y una persona realista (Rocketbox, MIT, caras inventadas) copia sus movimientos. El público se sustituye por
 // personas sentadas instanciadas con poses horneadas (aplauso / brazos arriba) que siguen las reacciones del juego.
 const ON = (() => { try { return localStorage.getItem('personajes3d') === 'personas'; } catch (e) { return false; } })();
-const VERSION = '1.5';
+const VERSION = '1.6';
 const PT = () => (document.documentElement.lang || '').startsWith('pt') || /PORTUGU/.test(document.querySelector('#btnLang')?.dataset.cur || '');
 // ---------- versión en el menú ----------
 function ponVersion() { const f = document.querySelector('#menu .menuFoot'); if (f && !f.querySelector('.mver')) { const v = document.createElement('div'); v.className = 'mver'; v.textContent = 'v' + VERSION; v.style.cssText = 'opacity:.7;font-size:12px;margin-top:6px;text-align:center'; f.appendChild(v); } }
